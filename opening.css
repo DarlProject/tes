@@ -1,0 +1,112 @@
+body{
+    margin: 8%;
+    overflow: hidden;
+}
+.video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+.HOPEN{
+    font-family: GROBOLD;
+    transform: translateY(50%);
+}
+.contentBUKA {
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 250%;
+    text-shadow: 0 4px 15px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.isi {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.satu {
+    transform: translateX(257%);
+    background-color: rgba(255, 255, 255, 0.123);
+    width: 16%;
+    padding: 2px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-shadow: 200%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.550);
+    transition: 150ms ease-out;
+}
+.satu:hover {
+    background-color: rgb(18, 14, 44);
+    scale: 1.1;
+    transform: translateX(233%);
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 150ms ease-out;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    text-shadow: 0 4px 15px rgb(0, 255, 255);
+}
+.dua {
+    transform: translateX(257%);
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.123);
+    width: 16%;
+    padding: 2px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-shadow: 200%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.550);
+    transition: 150ms ease-out;
+}
+.dua:hover {
+    background-color: rgb(18, 14, 44);
+    scale: 1.1;
+    transform: translateX(233%);
+}
+.tiga {
+    transform: translateX(257%);
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.123);
+    width: 16%;
+    padding: 2px;   
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-shadow: 200%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.550);
+    transition: 150ms ease-out;
+}
+.tiga:hover {
+    background-color: rgb(18, 14, 44);
+    scale: 1.1;
+    transform: translateX(233%);
+}
+.COMU {
+    transform: translateX(294%);
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.123);
+    width: 220px;
+    padding: 2px;   
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-shadow: 200%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.550);
+    transition: 150ms ease-out;
+}
+.COMU:hover {
+    background-color: rgb(18, 14, 44);
+    scale: 1.1;
+    transform: translateX(267%);
+}
